@@ -12,3 +12,9 @@ I used gmail smtp to setup postfix, please check postfix folder for example conf
 
 ## notification scripts:
 Please create a cron job to call send_noti_ucla.sh, I let the cron job run at 0:00 everyday.
+The CC_list contains emails for:
+1. present chairman
+2. present praying coworker
+3. present admin
+So, please change accordingly when there is new group of coworks
+Please also change adminemail to present admin's email.
